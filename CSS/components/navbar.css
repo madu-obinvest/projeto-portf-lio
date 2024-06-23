@@ -1,0 +1,51 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.navbar .navbar__content #menu-h {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 10;
+}
+
+.navbar .navbar__content #menu-h ul {
+  list-style: none;
+  padding: 0;
+  background-color: blue;
+}
+
+.navbar .navbar__content #menu-h  ul li {
+  display: inline;
+}
+
+.navbar .navbar__content #menu-h ul li a {
+  color: blue;
+  padding:10px 20px;
+  display: inline;
+  text-decoration: none;
+  font-size: white;
+  border-radius: 30px;
+  transition: background 0.6s;
+}
+
+.navbar .navbar__content #menu-h ul li:last-child a {
+  float: right;
+  background-color: blue;
+}
+
+.navbar .navbar__content .logo {
+  font-size: 35px;
+  width: 25%;
+  font-weight: bold;
+  font-style: Italic;
+  color: blue;
+}
+
+.navbar .navbar__content #menu-h ul li a:hover {
+  background-color: blue;
+}
+
